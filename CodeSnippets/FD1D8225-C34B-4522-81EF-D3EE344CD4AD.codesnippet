@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>gh_disPatch_after</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// 延迟执行
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(&lt;#time#&gt; * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        // 需要延迟执行的代码
+    });</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FD1D8225-C34B-4522-81EF-D3EE344CD4AD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>GCD延迟执行</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>GCD延迟执行</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
